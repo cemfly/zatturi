@@ -1,7 +1,7 @@
 # cbd-thermal-budget
 
 Equivalent deposition time for my CdS chemical bath deposition (CBD) runs.
-(used ai in readme files and some png and some miss data)
+(used ai in readme files and some png and some of missing data)
 The bath never stays at one temperature. It needs more than an hour to warm up, then overshoots and drifts, so "60 min at 75 °C" is not the same thing in two runs. This takes the temperature log of a run and turns it into equivalent minutes at 75 °C, so runs can be compared and I know when to take the substrate out.
 
 ## Method
